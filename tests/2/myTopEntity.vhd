@@ -24,7 +24,7 @@ architecture Behavioral of myTopEntity is
     signal itrigger : std_logic;
 begin
 
-    --prmodule (rshiftLEDs);
+    --prmodule (lshiftLEDs);
     --prmodule (blinkingLEDs);
     leddriver: rshiftLEDs
     port map(
